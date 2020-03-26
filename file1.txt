@@ -1,0 +1,27 @@
+1 : creat a user
+git config --global user.name "rafik"
+2 : display user.name
+git config --global user.name
+
+3 : creat an email
+git config --global user.email "usthb02@gmail.com"
+4    : display user.email
+git config --global user.email
+
+5 : initialize project
+git init
+
+6 : connaitre le statut d'un projet
+git status
+
+7 : tracker un fichier au projet
+git add nomdufichier.ext ou git add -A ou git add .
+
+8 : commite file ou backup (ouvre l'editeur par defaut pour écrire le message)
+git commit
+
+9 : commit file sans ouvrir l'editeur
+git commit -m "initial commit"
+
+10 : voir tous les commits
+git log
