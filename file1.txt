@@ -25,3 +25,6 @@ git commit -m "initial commit"
 
 10 : voir tous les commits
 git log
+
+11 : voir les changements apportés
+git diff
