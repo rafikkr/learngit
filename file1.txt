@@ -37,7 +37,7 @@ git reset  --soft identifiant commit (annule commit et conserve changement)
 git reset  --amend ou git reset --amend --no-edit
 
 14 : créer une branche
-git checkout -b nom de la branche
+git checkout -b nom de la branche ou git branch (sans switch)
 
 15 : afficher les branches
 git branche
