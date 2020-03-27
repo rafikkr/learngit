@@ -27,4 +27,26 @@ git commit -m "initial commit"
 git log
 
 11 : voir les changements apportés
-git diff
+git diff ou git diff nomdufichier.ext
+
+12 : annuler commit
+git reset  --hard identifiant commit (annule commit + changement)
+git reset  --soft identifiant commit (annule commit et conserve changement)
+
+13 : rajouter modification sans commit 
+git reset  --amend ou git reset --amend --no-edit
+
+14 : créer une branche
+git checkout -b nom de la branche
+
+15 : afficher les branches
+git branche
+
+16 : switcher entre les branches
+git checkout nom de la branche
+
+17 : fusionner la branche master avec une branche créée
+git merge nom de notre branche
+
+18 : supprimer branche
+git branch -d nom de la branche (impossible si la branche n'a pas été mergée avec master sinon mettre)
