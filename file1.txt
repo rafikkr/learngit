@@ -1,5 +1,6 @@
 1 : creat a user
 git config --global user.name "rafik"
+
 2 : display user.name
 git config --global user.name
 
@@ -24,7 +25,7 @@ git commit
 git commit -m "initial commit"
 
 10 : voir tous les commits
-git log
+git log ou git log --oneline ou git log --graph ou git log --oneline --graph
 
 11 : voir les changements apportés
 git diff ou git diff nomdufichier.ext
@@ -40,7 +41,7 @@ git reset  --amend ou git reset --amend --no-edit
 git checkout -b nom de la branche ou git branch (sans switch)
 
 15 : afficher les branches
-git branche
+git branch ou git branch -v avec les derniers commit de chaque branche
 
 16 : switcher entre les branches
 git checkout nom de la branche
@@ -50,3 +51,12 @@ git merge nom de notre branche
 
 18 : supprimer branche
 git branch -d nom de la branche (impossible si la branche n'a pas été mergée avec master sinon mettre)
+
+19 : créer un alias
+git config --global alias.s status (s est l'alias de status) >> git s
+
+20 : supprimer un alias
+git config --global --unset alias.s
+
+21 : afficher les github
+git remove -v
