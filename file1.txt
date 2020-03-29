@@ -60,3 +60,9 @@ git config --global --unset alias.s
 
 21 : afficher les github
 git remove -v
+
+22 : ajouter les fichiers au dépôt git
+git push
+
+23 : cloner le dépôt
+supprimer le dossier du local puis cloner en copiant l'adresse url
